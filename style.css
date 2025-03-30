@@ -1,0 +1,20 @@
+ @font-face {
+	font-family: 'Manrope-ExtraBold';
+	src: url('Manrope-ExtraBold.ttf');
+}
+
+body {
+	background: #261FB3;
+	font-family: 'Manrope-Extrabold', sans-serif;
+}
+
+.MainContainer {
+	max-width: 800px;
+	margin: 100px auto;
+	text-align: left;
+}
+
+h2 {
+	color: #DDEB9D;
+	font-size: 124px;
+}
