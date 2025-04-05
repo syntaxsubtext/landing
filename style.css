@@ -3,18 +3,54 @@
 	src: url('Manrope-ExtraBold.ttf');
 }
 
+ @font-face {
+	font-family: 'Manrope-Medium';
+	src: url('Manrope-Medium.ttf');
+}
+
 body {
-	background: #261FB3;
+	background: #261FB3 center;
+	background-size: cover;
+	background-image: url('bkg.jpg');
 	font-family: 'Manrope-Extrabold', sans-serif;
 }
 
 .MainContainer {
 	max-width: 800px;
 	margin: 100px auto;
-	text-align: left;
+	text-align: center;
+}
+
+h1 {
+	color: #fff;
+	font-size: 80px;
 }
 
 h2 {
+	font-family: 'Manrope-Medium', sans-serif;
+	font-weight: 400;
 	color: #DDEB9D;
-	font-size: 124px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+button {
+	background: #ff0;
+	padding: 12px 24px;
+	display: block;
+	margin: 8px auto 14px;
+	border-radius: 12px;
+	border: none;
+	outline: none;
+}
+
+button a {
+	text-decoration: none;
+	color: #000;
+	font-size: 24px;
+	font-family: 'Manrope-Extrabold', sans-serif;
+}
+
+.cta:hover {
+	background: #111;
 }
