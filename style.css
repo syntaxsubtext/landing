@@ -1,6 +1,6 @@
  @font-face {
-	font-family: 'Manrope-ExtraBold';
-	src: url('Manrope-ExtraBold.ttf');
+	font-family: 'Forum';
+	src: url('Forum-Regular.ttf');
 }
 
  @font-face {
@@ -8,11 +8,16 @@
 	src: url('Manrope-Medium.ttf');
 }
 
+@font-face {
+	font-family: 'IBMPlex';
+	src: url('IBMPlexMono-Regular.ttf');
+}
+
 body {
-	background: #261FB3 center;
+	background: #000 center;
 	background-size: cover;
 	background-image: url('bkg.jpg');
-	font-family: 'Manrope-Extrabold', sans-serif;
+	font-family: 'Forum', serif;
 }
 
 .MainContainer {
@@ -23,20 +28,24 @@ body {
 
 h1 {
 	color: #fff;
-	font-size: 80px;
+	font-size: 96px;
+	font-weight: 400;
+	margin-bottom: 24px;
 }
 
 h2 {
-	font-family: 'Manrope-Medium', sans-serif;
+	font-family: 'Forum', serif;
 	font-weight: 400;
-	color: #DDEB9D;
+	font-size: 24px;
+	color: #fff;
 	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 6px;
 }
 
 button {
-	background: #ff0;
-	padding: 12px 24px;
+	background: #F75333;
+	background: linear-gradient(136deg,rgba(247, 83, 51, 1) 0%, rgba(241, 148, 8, 1) 100%);
+	padding: 12px 24px 14px;
 	display: block;
 	margin: 8px auto 14px;
 	border-radius: 12px;
@@ -44,11 +53,15 @@ button {
 	outline: none;
 }
 
+button:hover {
+	background: #F75333;
+}
+
 button a {
 	text-decoration: none;
-	color: #000;
-	font-size: 24px;
-	font-family: 'Manrope-Extrabold', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'IBMPlex', monospace;
 }
 
 .cta:hover {
